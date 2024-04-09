@@ -12,22 +12,22 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ### Requisitos funcionais
 
-- [ ]  O organizador deve poder cadastrar um novo evento;
-- [ ]  O organizador deve poder visualizar dados de um evento;
-- [ ]  O organizador deve poser visualizar a lista de participantes;
-- [ ]  O participante deve poder se inscrever em um evento;
-- [ ]  O participante deve poder visualizar seu crachá de inscrição;
-- [ ]  O participante deve poder realizar check-in no evento;
+- [x] O organizador deve poder cadastrar um novo evento;
+- [x] O organizador deve poder visualizar dados de um evento;
+- [x] O organizador deve poser visualizar a lista de participantes; 
+- [x] O participante deve poder se inscrever em um evento;
+- [x] O participante deve poder visualizar seu crachá de inscrição;
+- [x] O participante deve poder realizar check-in no evento;
 
 ### Regras de negócio
 
-- [ ]  O participante só pode se inscrever em um evento uma única vez;
-- [ ]  O participante só pode se inscrever em eventos com vagas disponíveis;
-- [ ]  O participante só pode realizar check-in em um evento uma única vez;
+- [x] O participante só pode se inscrever em um evento uma única vez;
+- [x] O participante só pode se inscrever em eventos com vagas disponíveis;
+- [x] O participante só pode realizar check-in em um evento uma única vez;
 
 ### Requisitos não-funcionais
 
-- [ ]  O check-in no evento será realizado através de um QRCode;
+- [x] O check-in no evento será realizado através de um QRCode;
 
 ## Especificações da API
 
@@ -39,6 +39,7 @@ Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente 
 
 ### Diagrama ERD
 
+<img src=".github/erd.svg" width="600" alt="Diagrama ERD do banco de dados" />
 
 
 Estrutura do banco (SQL)
